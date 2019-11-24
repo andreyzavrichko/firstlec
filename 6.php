@@ -1,13 +1,13 @@
-<pre>
 <?php
+echo '<pre>';
 echo '<table style="text-align:center">';
-for ($i=1; $i<11; $i++) {
+for ($cols=1; $cols<11; $cols++) {
     echo "<tr>";
-    for ($e=1; $e<11; $e++) {
-        $result = $i * $e;
-        if ($i % 2 == 1 && $e % 2 == 1) {
+    for ($rows=1; $rows<11; $rows++) {
+        $result = $cols * $rows;
+        if ($cols % 2 == 1 && $rows % 2 == 1) {
             echo "<td>[$result]</td>";
-        } elseif ($i % 2 == 0 && $e % 2 == 0) {
+        } elseif ($cols % 2 == 0 && $rows % 2 == 0) {
             echo "<td>($result)</td>";
         } else {
             echo "<td>$result</td>";
@@ -16,3 +16,4 @@ for ($i=1; $i<11; $i++) {
     echo "</tr>";
 }
 echo '</table>';
+echo '</pre>';

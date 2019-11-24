@@ -1,5 +1,5 @@
-<pre>
 <?php
+echo '<pre>';
 $bmw = array(
     'model' => 'X5',
     'speed' => 120,
@@ -28,3 +28,4 @@ echo 'CAR ' .$name[1] .PHP_EOL .$car['audi'][0] .' '.$car['audi'][1].' '.$car['a
     .PHP_EOL.'<br>';
 echo 'CAR ' .$name[2] .PHP_EOL .$car['mercedes'][0] .' '.$car['mercedes'][1].' '.$car['mercedes'][2].' '
     .$car['mercedes'][3] .PHP_EOL;
+echo '</pre>';

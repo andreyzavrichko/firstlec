@@ -1,1 +1,1 @@
-<pre><?php$name = 'Андрей';$age = '28';echo "Меня зовут: $name" . PHP_EOL;echo "Мне $age лет" . PHP_EOL;$symbols = '"!|\/\'"\\';echo $symbols;
+<?phpecho '<pre>';$name = 'Андрей';$age = '28';echo "Меня зовут: $name" . PHP_EOL;echo "Мне $age лет" . PHP_EOL;$symbols = '"!|\/\'"\\';echo $symbols;echo '</pre>';

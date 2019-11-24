@@ -1,5 +1,5 @@
-<pre>
 <?php
+echo '<pre>';
 $age = '28';
 echo 'Возраст: '.$age .' лет'.PHP_EOL;
 if ($age >= 18 && $age <=65) {
@@ -11,3 +11,4 @@ if ($age >= 18 && $age <=65) {
 } else {
     echo 'Неизвестный возраст';
 }
+echo '</pre>';
